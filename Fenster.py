@@ -11,8 +11,10 @@ label1.place(x = 0, y = 0)
 
 
 # Feld
-feld = Label(master=root, text='', bg='gray', font=('Arial', 36))
-feld.place(x=40, y=40, width=800, height=600)
+frame = Frame(master=root, bg='gray')
+frame.place(x=40, y=40, width=800, height=600)
+#feld = Label(master=root, text='', bg='gray', font=('Arial', 36))
+#feld.place(x=40, y=40, width=800, height=600)
 
 # Geldanzeige
 text = Label(master=root, text='Geld:', bg='#008800', font=('Arial', 30))
