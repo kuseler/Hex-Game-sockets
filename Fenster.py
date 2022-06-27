@@ -37,7 +37,8 @@ def eventHandler():
     frame.bind("<Button-1>",getMouse)
 
 def placeUnit():
-    eventHandler
+    unit = PhotoImage(file = "unit1_friendly")
+    newUnit = Label(frame, image = unit)
     
     
 
